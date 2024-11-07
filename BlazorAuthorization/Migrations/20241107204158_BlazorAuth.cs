@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BlazorAuthorization.Migrations
 {
     /// <inheritdoc />
-    public partial class Auth : Migration
+    public partial class BlazorAuth : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

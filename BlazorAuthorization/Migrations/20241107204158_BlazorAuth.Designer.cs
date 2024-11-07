@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazorAuthorization.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241106221059_Auth")]
-    partial class Auth
+    [Migration("20241107204158_BlazorAuth")]
+    partial class BlazorAuth
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
